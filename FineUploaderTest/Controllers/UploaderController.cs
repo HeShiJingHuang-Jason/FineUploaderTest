@@ -31,7 +31,6 @@ namespace FineUploaderTest.Web.Controllers
             }
             catch (Exception ex)
             {
-                //To Do
                 return new FineUploaderResult(false, error: ex.Message);
             }
             // the anonymous object in the result below will be convert to json and set back to the browser
